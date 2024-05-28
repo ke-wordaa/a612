@@ -5,7 +5,7 @@ $(document).ready(function ()
     let A= Math.abs(day_time-da)
     day = A/(1000 * 3600 * 24)
     
-    days = Math.round(day)
+    days = Math.round(day)+1
     // days = 
     console.log(days)
     if (days >0)
